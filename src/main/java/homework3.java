@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class homework3 {
     public static void main(String[] args) {
 
+
         System.out.println(".................задание 1 .................");
         findNumber();
 
@@ -23,9 +24,6 @@ public class homework3 {
     public static void findWord(String[] words){
 
 
-//        String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli",
-//                "carrot", "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom",
-//                "nut", "olive", "pea", "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
 
         Random random = new Random();
         int number_of_hidden_word = random.nextInt(words.length-1);
@@ -69,6 +67,7 @@ public class homework3 {
 
 
     public static void findNumber() {
+        // возникли трудности с проверкой корректности вводимых значений(числа) в консоль...вернее не смог сделать)
         Random random = new Random();
 
             int number = random.nextInt(10);
